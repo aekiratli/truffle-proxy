@@ -1,0 +1,85 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x52Ab5f1e6dBEBe44593feC84f8b4C273dF87e369",
+    "txHash": "0xe6719c25a7ac5684dee20dd99fb08fe776c5e14cf16554e41d32fc0b7e912fa1"
+  },
+  "proxies": [
+    {
+      "address": "0x72A4f65DD7177dDA1537efc19aC13C1f34f9ef2A",
+      "txHash": "0x52eb8a82a5cd5507c6b718dfdb3bc2ca9270aba1b288e03c16ee5a9a77c905eb",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "1167e23fb6c0d3a3482788e38f10b031d20734416ff26527cb76541c9327e339": {
+      "address": "0xF78f14c18a4A7B87C0fBF1Ae45aBa92201F85ffA",
+      "txHash": "0xbcf10f6a60da89277077dea92188dfc762d40987ba166ae805b6769689308433",
+      "layout": {
+        "storage": [
+          {
+            "contract": "impV1",
+            "label": "returnedNumber",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\impV1.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "a4887b7fecf7abd0a7b407bb32ec4cf4c30d1216cd612ef7157eedff874198e2": {
+      "address": "0x617F3C71B65730B36f69FE830717fca38C67C85e",
+      "txHash": "0x1ef6bfa6717d54224bb761980389056c5a3e3a151d98e5622f231a33f07bfaab",
+      "layout": {
+        "storage": [
+          {
+            "contract": "impV2",
+            "label": "returnedNumber",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\impV2.sol:6"
+          },
+          {
+            "contract": "impV2",
+            "label": "returnedNumber2",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\impV2.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "5f97b668833140fef4f33f495a4c2a9edfb347cc7fbe30f3c75db0e7ceb5b4f3": {
+      "address": "0x91059d38D2Ab0Bbe30f52e0eFa9aEa54AfF3aA62",
+      "txHash": "0xf6a5fa47c33fb465959079a3bcfd326ccb86cfd5c7f3d3fc2a869c33277a053d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "impV1",
+            "label": "returnedNumber",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\impV1.sol:6"
+          },
+          {
+            "contract": "impV1",
+            "label": "returnedNumber2",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\impV1.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  }
+}
